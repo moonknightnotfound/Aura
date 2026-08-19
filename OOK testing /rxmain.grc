@@ -33,6 +33,30 @@ options:
     state: enabled
 
 blocks:
+- name: Frequency_of_backscatter_tag
+  id: variable
+  parameters:
+    comment: ''
+    value: 1e6
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [448, 16.0]
+    rotation: 0
+    state: enabled
+- name: frequency_of_FM_channel
+  id: variable
+  parameters:
+    comment: ''
+    value: 98.3e6
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [304, 16.0]
+    rotation: 0
+    state: enabled
 - name: samp_rate
   id: variable
   parameters:
@@ -201,13 +225,13 @@ blocks:
     maxoutbuf: '0'
     minoutbuf: '0'
     samp_rate: samp_rate
-    taps: firdes.low_pass(1,samp_rate,50e3,10e3)
+    taps: firdes.low_pass(1,samp_rate,200e3,10e3)
     type: ccf
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [568, 244.0]
+    coordinate: [528, 244.0]
     rotation: 0
     state: enabled
 - name: qtgui_const_sink_x_0
@@ -333,7 +357,7 @@ blocks:
     color9: '"dark green"'
     comment: ''
     ctrlpanel: 'False'
-    fc: 120e6+20e3
+    fc: frequency_of_FM_channel+Frequency_of_backscatter_tag
     fftsize: '1024'
     freqhalf: 'True'
     grid: 'False'
@@ -752,7 +776,7 @@ blocks:
     dc_offset_mode7: '0'
     dc_offset_mode8: '0'
     dc_offset_mode9: '0'
-    freq0: 120e6+20e3
+    freq0: frequency_of_FM_channel+Frequency_of_backscatter_tag
     freq1: 100e6
     freq10: 100e6
     freq11: 100e6
