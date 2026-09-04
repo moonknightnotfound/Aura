@@ -53,7 +53,7 @@
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.2,
-          "corner_smoothing": 1,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -211,7 +211,8 @@
       ],
       "track_widths": [
         0.0,
-        0.4
+        0.4,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -663,7 +664,7 @@
         "uuid": "9d2b477b-68e1-4fb7-943f-64813145e28e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-4",
     "variants": []
   },
   "sheets": [

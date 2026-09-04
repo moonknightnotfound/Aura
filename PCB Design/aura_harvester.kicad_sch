@@ -3069,7 +3069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 95.25 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -3305,7 +3305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 184.15 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -3868,7 +3868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 110.49 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -3948,7 +3948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 153.67 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -4586,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 68.58 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -5306,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 139.7 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -5386,7 +5386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 123.19 64.135 0)
 			(hide yes)
 			(show_name no)
@@ -6434,7 +6434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 173.99 64.135 0)
 			(hide yes)
 			(show_name no)

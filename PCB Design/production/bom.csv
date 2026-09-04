@@ -1,0 +1,16 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"AE1, AE2",SMA_Amphenol_132134_Vertical,2,Antenna_Dipole,
+"C1, C2, C3, C4, C5, C6, C7, C8",0805,8,22uF,
+"C10, C9",0805,2,100nF,
+C11,0805,1,10nF,
+"C12, C13, C14, C15",0805,4,C,
+CLK_TP,TestPoint_Pad_1.0x1.0mm,1,CLK_TP,
+"D1, D2, D3, D4, D5, D6, D8, D9",D_SOD-323_HandSoldering,8,BAT85,
+"J1, J2, J3, J4, J5",PinSocket_1x01_P2.54mm_Vertical,5,Conn_01x01_Pin,
+L1,L_Sunlord_MWSA0603S,1,10uH,
+L2,0402,1,L,
+R2,1206,1,50R,
+RF1_TP,TestPoint_Pad_1.0x1.0mm,1,RF1_TP,
+RF2_TP,TestPoint_Pad_1.0x1.0mm,1,RF_TP,
+SIG_TP,TestPoint_Pad_1.0x1.0mm,1,SIG_TP,
+U1,TSSOP-20_ADG936,1,ADG936BRUZ,C657707
